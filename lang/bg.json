@@ -1,0 +1,27 @@
+{
+    "header": {
+        "cartLabel": "Количка",
+        "cartCount": "0",
+        "recentlyAddedTitle": "Последно добавени",
+        "emptyCartMessage": "Няма продукти в количката.",
+        "searchLabel": "Търсене:",
+        "searchLabelTwo": "Търси",
+        "myAccLabel": "Моят профил",
+        "myWishlistLabel": "Любими",
+        "checkoutLabel": "Разплащане",
+        "blogLabel": "Блог",
+        "logInLabel": "Вход",
+        "registerLabel": "Регистриране",
+        "yourLanguageLabel": "Език:",
+        "language": "Английски",
+
+
+
+        "navbarSubmenu_1": "Пакетирани продукти",
+        "navbarSubmenu_1_item_1": "Флейти",
+        "navbarSubmenu_1_item_2": "Багети",
+        "navbarSubmenu_1_item_3": "Ръцен хляб",
+        "navbarSubmenu_1_item_4": "Многозърнест"
+    }
+
+}

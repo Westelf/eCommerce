@@ -1,0 +1,251 @@
+<div class="container">
+    <div class="page-header-container">
+
+        <div class="desktop_logo">
+            <!-- logo -->
+            <a class="logo" href="#home">
+                <img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/logo.png" alt="Magento Commerce">
+            </a>
+            <!-- end logo -->
+        </div>
+        <div class="f-right header_right_holder">
+            <div class="header-minicart desktop">
+
+
+                <a href="" data-target-element="#header-cart" class="skip-link skip-cart  no-count">
+                    <span class="icon"></span>
+                    <span class="label">{{header.cartLabel}}</span>
+                    <span class="count">{{header.cartCount}}</span>
+                </a>
+
+                <div id="header-cart" class="block block-cart skip-content">
+
+                    <div id="minicart-error-message" class="minicart-message"></div>
+                    <div id="minicart-success-message" class="minicart-message"></div>
+
+                    <div class="minicart-wrapper">
+
+                        <p class="block-subtitle">
+                           {{header.recentlyAddedTitle}}
+                            <a class="close skip-link-close fa fa-times" href="#" title="Close"></a>
+                        </p>
+
+                        <p class="empty">{{header.emptyCartMessage}}</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search -->
+            <div class="header-search desktop">
+                <a href="https://ld-magento.template-help.com/magento_58960/customer/account/" data-target-element="#search-dropdown" class="skip-link account-dropdown">
+                    <span class="label"></span>
+                </a>
+                <div id="search-dropdown" class="skip-content">
+
+                    <form id="search_mini_form" action="https://ld-magento.template-help.com/magento_58960/catalogsearch/result/" method="get">
+                        <div class="input-box">
+                            <label for="search">{{header.searchLabel}}</label>
+                            <input id="search" type="search" autocomplete="off" class="input-text required-entry" name="q" value="" maxlength="128" placeholder="Search here...">
+                            <button type="submit" title="Search" class="button search-button">
+            <span>
+                <span>
+                    {{header.searchLabelTwo}}               </span>
+            </span>
+        </button>
+                            <a class="close skip-link-close fa fa-times" title="Close" href="#"></a>
+                        </div>
+
+                        <div id="search_autocomplete" class="search-autocomplete">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end Search -->
+
+            <!-- Top Links -->
+            <div class="top-links">
+                <a href="https://ld-magento.template-help.com/magento_58960/customer/account/" data-target-element="#header-account-dropdown"
+                    class="skip-link account-dropdown">
+                    <span class="label"></span>
+                </a>
+
+                <div id="header-account-dropdown" class="skip-content">
+                    <a class="close skip-link-close fa fa-times" href="#" title="Close"></a>
+                    <div class="control_links">
+                        <div class="links">
+                            <ul>
+                                <li class="first"><a href="https://ld-magento.template-help.com/magento_58960/customer/account/" title="My Account"
+                                        class="my-account-link">{{header.myAccLabel}}</a></li>
+                                <li><a href="https://ld-magento.template-help.com/magento_58960/wishlist/" title="My Wishlist"
+                                        class="wishlist-link">{{header.myWishlistLabel}}</a></li>
+
+                                <li><a href="https://ld-magento.template-help.com/magento_58960/blog/" title="Blog" class="top-link-blog">{{header.blogLabel}}</a></li>
+                                <li><a href="https://ld-magento.template-help.com/magento_58960/checkout/" title="Checkout" class="top-link-checkout">{{header.checkoutLabel}}</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="acc_links">
+                        <div class="links">
+                            <ul>
+                                <li class="first"><a href="https://ld-magento.template-help.com/magento_58960/customer/account/login/" title="Log In"
+                                        class="log-in-link">{{header.logInLabel}}</a></li>
+                                <li class=" last"><a href="https://ld-magento.template-help.com/magento_58960/customer/account/create/" title="Register"
+                                        class="register-link">{{header.registerLabel}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header-switchers">
+
+                        <div class="header-button lang-list full_mode">
+
+                            <div class="header-button-title"><span class="label">{{header.yourLanguageLabel}}</span> <span class="current">{{header.language}}</span></div>
+                            <ul>
+                                <li>
+                                    <a class="selected" href="https://ld-magento.template-help.com/magento_58960/?___store=english&amp;___from_store=english"
+                                        title="en_US"><span>{{header.language}}</span><span class="mobile-part">en</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://ld-magento.template-help.com/magento_58960/?___store=german&amp;___from_store=english" title="de_DE"><span>German</span><span class="mobile-part">de</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://ld-magento.template-help.com/magento_58960/?___store=spanish&amp;___from_store=english" title="es_PA"><span>Spanish</span><span class="mobile-part">es</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://ld-magento.template-help.com/magento_58960/?___store=russian&amp;___from_store=english" title="ru_RU"><span>Russian</span><span class="mobile-part">ru</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+                        <div class="header-button currency-list full_mode">
+                            <div class="header-button-title">
+                                <span class="label">Currency:</span><span class="current">USD</span>
+                            </div>
+
+                            <ul style="">
+                                <li>
+                                    <a href="https://ld-magento.template-help.com/magento_58960/directory/currency/switch/currency/EUR/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODk2MC8,/"
+                                        title="EUR"><span>€ Euro</span><span class="mobile-part">EUR</span></a>
+                                </li>
+                                <li>
+                                    <a class="selected" href="https://ld-magento.template-help.com/magento_58960/directory/currency/switch/currency/USD/uenc/aHR0cDovL2xkLW1hZ2VudG8udGVtcGxhdGUtaGVscC5jb20vbWFnZW50b181ODk2MC8,/"
+                                        title="USD"><span>$ US Dollar</span><span class="mobile-part">USD</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- end Top Links -->
+
+        </div>
+
+        <div class="header_holder">
+
+            <!-- RD Navbar -->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-static" data-rd-navbar-lg="rd-navbar-static">
+                    <div class="rd-navbar-inner">
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span class="m_icon"></span></button>
+                    </div>
+
+                    <div class="rd-navbar-nav-wrap">
+                        <!-- RD Navbar Nav -->
+                        <ul class="rd-navbar-nav">
+                            <li class="rd-navbar-nav-category rd-navbar--has-megamenu rd-navbar-submenu"><a href="#sectionTest" class="rd-navbar-nav-link">{{header.navbarSubmenu_1}}</a>
+
+                                <div class="rd-navbar-megamenu ">
+                                    <div class="rd-navbar-megamenu-wrapper-1">
+                                        <div class="rd-navbar-megamenu-wrapper-2">
+
+                                            <div class="rd-navbar-static-block rd-navbar-static-block-1">
+                                                <div class="m_menu_banners">
+                                                    <div class="m_col1">
+                                                        <div class="m_holder mh1">
+                                                            <a href="#sectionTest">
+                                                                <div class="ban_img"><span></span><img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/media/m_holder1.jpg"
+                                                                        alt=""></div>
+                                                                <h2>{{header.navbarSubmenu_1.item_1}}</h2>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="m_col2">
+                                                        <div class="m_holder mh2">
+                                                            <a href="https://ld-magento.template-help.com/magento_58960/breakfast.html/">
+                                                                <div class="ban_img"><span></span><img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/media/m_holder2.jpg"
+                                                                        alt=""></div>
+                                                                <h2>{{header.navbarSubmenu_1.item_2}}</h2>
+                                                            </a>
+                                                        </div>
+                                                        <div class="m_holder mh3">
+                                                            <a href="https://ld-magento.template-help.com/magento_58960/candy-chocolate.html/">
+                                                                <div class="ban_img"><span></span><img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/media/m_holder3.jpg"
+                                                                        alt=""></div>
+                                                                <h2>{{header.navbarSubmenu_1.item_3}}</h2>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="m_col3">
+                                                        <div class="m_holder mh4">
+                                                            <a href="https://ld-magento.template-help.com/magento_58960/nuts-and-seeds.html/">
+                                                                <div class="ban_img"><span></span><img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/media/m_holder4.jpg"
+                                                                        alt=""></div>
+                                                                <h2>{{header.navbarSubmenu_1.item_4}}</h2>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><span class="rd-navbar-submenu-toggle"></span></li>
+                            <li class="rd-navbar-nav-category rd-navbar--has-dropdown rd-navbar-submenu"><a href="#product" class="rd-navbar-nav-link">Breakfasts</a>
+                                <ul class="rd-navbar-nav-level-1 rd-navbar-dropdown">
+                                    <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/fruit.html" class="rd-navbar-nav-link">Fruits</a></li>
+                                    <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/cereal-bars.html"
+                                            class="rd-navbar-nav-link">Cereal Bars</a></li>
+                                    <li class="rd-navbar-nav-category rd-navbar--has-dropdown rd-navbar-submenu"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/breakfast-bars.html"
+                                            class="rd-navbar-nav-link">Breakfast Bars</a>
+                                        <ul class="rd-navbar-nav-level-2 rd-navbar-dropdown">
+                                            <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/breakfast-bars/breakfast-biscuits.html"
+                                                    class="rd-navbar-nav-link">Breakfast Biscuits</a></li>
+                                            <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/breakfast-bars/grain-bars.html"
+                                                    class="rd-navbar-nav-link">Grain Bars</a></li>
+                                            <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/breakfast-bars/nature-valley.html"
+                                                    class="rd-navbar-nav-link"> Nature Valley</a></li>
+                                        </ul><span class="rd-navbar-submenu-toggle"></span></li>
+                                    <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/muesli.html" class="rd-navbar-nav-link">Muesli</a></li>
+                                    <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/breakfast/pancake.html" class="rd-navbar-nav-link">Pancakes</a></li>
+                                </ul><span class="rd-navbar-submenu-toggle"></span></li>
+                            <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/candy-chocolate.html" class="rd-navbar-nav-link">Candies &amp; Chocolate </a></li>
+                            <li class="rd-navbar-nav-category"><a href="https://ld-magento.template-help.com/magento_58960/nuts-and-seeds.html" class="rd-navbar-nav-link">Nuts and Seeds</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="rd-navbar rd-navbar--is-clone rd-navbar-static" data-rd-navbar-lg="rd-navbar-static">
+                    <div class="rd-navbar-inner">
+                        <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span class="m_icon"></span></button>
+                    </div>
+
+                    <div class="rd-navbar-nav-wrap">
+
+                    </div>
+                    <div class="mobile_logo">
+                        <!-- logo -->
+                        <a class="logo" href="#home">
+                            <img src="https://ld-magento.template-help.com/magento_58960/skin/frontend/tm_themes/theme351k/images/logo.png" alt="Magento Commerce">
+                        </a>
+                        <!-- end logo -->
+                    </div>
+
+
+            </div>
+        </div>

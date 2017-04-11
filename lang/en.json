@@ -1,0 +1,27 @@
+{
+    "header": {
+        "cartLabel": "Cart",
+        "cartCount": "0",
+        "recentlyAddedTitle": "Recently added item(s)",
+        "emptyCartMessage": "You have no items in your shopping cart.",
+        "searchLabel": "Search:",
+        "searchLabelTwo": "Search",
+        "myAccLabel": "My Account",
+        "myWishlistLabel": "My Wishlist",
+        "checkoutLabel": "Checkout",
+        "blogLabel": "Blog",
+        "logInLabel": "Log In",
+        "registerLabel": "Register",
+        "yourLanguageLabel": "Your language:",
+        "language": "English",
+
+
+
+        "navbarSubmenu_1": "Packaged Meals",
+        "navbarSubmenu_1_item_1": "Flutes",
+        "navbarSubmenu_1_item_2": "Baguettes",
+        "navbarSubmenu_1_item_3": "Rye bread",
+        "navbarSubmenu_1_item_4": "5-Grain"
+    }
+
+}
