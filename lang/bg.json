@@ -1,4 +1,7 @@
 {
+    "general" : {
+        "lang" : "bg"
+    },
     "header": {
         "cartLabel": "Количка",
         "cartCount": "0",
