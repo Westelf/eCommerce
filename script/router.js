@@ -79,7 +79,7 @@ function reloadHeaderAndFooterIfNotLoaded() {
 // }
 
 
-var router = new Navigo('http://localhost:6060/', false);
+var router = new Navigo(configs.url, false);
 
 router.on('/home', function () {
     reloadHeaderAndFooterIfNotLoaded()

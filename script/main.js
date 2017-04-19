@@ -2,6 +2,10 @@ var content;
 
 var configs = {
   lang: "bg",
+  allowedLanguages: [
+    'bg',
+    'en'
+  ],
   url: "http://localhost:6060/"
 }
 
@@ -29,18 +33,35 @@ window.onload = function () {
 
 function changeInitialAddress() {
     if (window.location.href === configs.url) {
-    window.location.href = configs + '#/' + content.general.lang + '/home';
+    window.location.href = configs.url + '#/' + configs.lang + '/home';
     console.log('change function');
   }
 }
 
+function checkLanguageValidity(lang) {
+  var i, len, result = false;
+  for (i = 0, len  = configs.allowedLanguages.length; i < len; i++) {
+    if (lang = configs.allowedLanguages[i]) {
+      result = true;
+      break;
+    }
+  }
 
+  if (!result) {
+    // TODO: Implementation of logic that should be executed if the language is not supported.
+    throw new Error('Language exception: Language is not valid: ' + lang);
+  }
+}
 
 function changeUrlLanguage(lang) {
+  var currentUrl = window.location.href,
+  indexOfHashTag;
 
+  indexOfHashTag = currentUrl.indexOf('#');
 }
 
 function changeLanguage(lang) {
+  checkLanguageValidity(lang);
   $.getJSON('../lang/' + lang + '.json', function (json) {
     content = json;
     router.resolve();
