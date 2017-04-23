@@ -24,7 +24,68 @@
         "navbarSubmenu_1_item_1": "Флейти",
         "navbarSubmenu_1_item_2": "Багети",
         "navbarSubmenu_1_item_3": "Ръцен хляб",
-        "navbarSubmenu_1_item_4": "Многозърнест"
+        "navbarSubmenu_1_item_4": "Многозърнест",
+
+        "navbarSubmenu_2": "Закуски",
+        "navbarSubmenu_2_item_1": "Сериали",
+        "navbarSubmenu_2_item_2": "Сериали",
+        "navbarSubmenu_2_item_3": "Блокчета",
+        "navbarSubmenu_2_item_3_subItem_1": "Бисквити",
+        "navbarSubmenu_2_item_3_subItem_2": "Пълнозърнести блокчета",
+        "navbarSubmenu_2_item_3_subItem_3": "Натурал валей",
+        "navbarSubmenu_2_item_4": "Мюсли",
+        "navbarSubmenu_2_item_5": "Палачинки",
+
+        "navbarSubmenu_3": "Бонбони &amp; Шоколад",
+
+        "navbarSubmenu_4": "Ядки и семки"
+    },
+
+    "main": {
+    },
+
+    "footer": {
+        "subscribe_title": "Абонирайте се!",
+        "subscribe_info": "Въведете Вашият e-mail адрес, за да получавате информация за всички новости!",
+        "subscribe_submit_btn": "Изпрати",
+
+        "section_1_title": "Информация",
+        "section_1_item_1": "За нас",
+        "section_1_item_2": "Услуги за клиенти",
+        "section_1_item_3": "Настройки на шаблона",
+        "section_1_item_4": "Политика за правата",
+        "section_1_item_5": "Карта на сайта",
+        "section_1_item_6": "Условия за търсене",
+        "section_1_item_7": "Търсене за напреднали",
+        "section_1_item_8": "Заявки и рекламации",
+        "section_1_item_9": "Свържете се с нас",
+
+        "section_2_title": "Защо да купите от нас",
+        "section_2_item_1": "Доставка $amp; Връщане",
+        "section_2_item_2": "Сигурно пазаруване",
+        "section_2_item_3": "Международни доставки",
+        "section_2_item_4": "Съдружници",
+        "section_2_item_5": "Групови продажби",
+
+        "section_3_title": "Моят профил",
+        "section_3_item_1": "Вход",
+        "section_3_item_2": "Вижте количката",
+        "section_3_item_3": "Лист с желания",
+        "section_3_item_4": "Проследяване на доставка",
+        "section_3_item_5": "Помощ",
+
+        "contact_section_title": "Контакти",
+        "contact_subSection_1_title": "Ферма",
+        "contact_subSection_1_item_1": "Калифорния, САЩ",
+        "contact_subSection_1_item_2": "+844 123 456 78",
+        "contact_subSection_1_item_3": "farm@demolink.org",
+        "contact_subSection_2_title": "Магазин",
+        "contact_subSection_2_item_1": "No 1123, Sky Tower Street, Ню Йорк,",
+        "contact_subSection_2_item_2": "+844 123 456",
+        "contact_subSection_2_item_3": "store@demolink.org",
+
+        "copyright_text": "2017 Magento Demo Store. Всички права запазени.",
+        "copyright_symbol": "©"
     }
 
 }

@@ -2,6 +2,7 @@
    "general" : {
         "lang" : "bg"
     },
+
     "header": {
         "cartLabel": "Cart",
         "cartCount": "0",
@@ -18,13 +19,72 @@
         "yourLanguageLabel": "Your language:",
         "language": "English",
 
-
-
         "navbarSubmenu_1": "Packaged Meals",
         "navbarSubmenu_1_item_1": "Flutes",
         "navbarSubmenu_1_item_2": "Baguettes",
         "navbarSubmenu_1_item_3": "Rye bread",
-        "navbarSubmenu_1_item_4": "5-Grain"
+        "navbarSubmenu_1_item_4": "5-Grain",
+
+        "navbarSubmenu_2": "Breakfasts",
+        "navbarSubmenu_2_item_1": "Cereal Bars",
+        "navbarSubmenu_2_item_2": "Cereal Bars",
+        "navbarSubmenu_2_item_3": "Breakfast Bars",
+        "navbarSubmenu_2_item_3_subItem_1": "Breakfast Biscuits",
+        "navbarSubmenu_2_item_3_subItem_2": "Grain Bars",
+        "navbarSubmenu_2_item_3_subItem_3": "Natural Valey",
+        "navbarSubmenu_2_item_4": "Muesli",
+        "navbarSubmenu_2_item_5": "Pancakes",
+
+        "navbarSubmenu_3": "Candies &amp; Chocolate",
+
+        "navbarSubmenu_4": "Nuts and Seeds"
+    },
+
+    "main": {
+    },
+
+    "footer": {
+        "subscribe_title": "Subscribe to us!",
+        "subscribe_info": "Enter Your email address to join our mailing list and keep yourself update.",
+        "subscribe_submit_btn": "Submit",
+
+        "section_1_title": "Information",
+        "section_1_item_1": "About Us",
+        "section_1_item_2": "Customer Service",
+        "section_1_item_3": "Template Settings",
+        "section_1_item_4": "Privacy Policy",
+        "section_1_item_5": "Site Map",
+        "section_1_item_6": "Search Terms",
+        "section_1_item_7": "Advanced Search",
+        "section_1_item_8": "Orders and Returns",
+        "section_1_item_9": "Contact Us",
+
+        "section_2_title": "Why buy from us",
+        "section_2_item_1": "Shipping $amp; Returns",
+        "section_2_item_2": "Secure SHopping",
+        "section_2_item_3": "International Shipping",
+        "section_2_item_4": "Affiliates",
+        "section_2_item_5": "Group Sales",
+
+        "section_3_title": "My account",
+        "section_3_item_1": "Sign in",
+        "section_3_item_2": "View Cart",
+        "section_3_item_3": "My Wishlist",
+        "section_3_item_4": "Track My Order",
+        "section_3_item_5": "Help",
+
+        "contact_section_title": "Contact",
+        "contact_subSection_1_title": "Farm",
+        "contact_subSection_1_item_1": "California, USA",
+        "contact_subSection_1_item_2": "+844 123 456 78",
+        "contact_subSection_1_item_3": "farm@demolink.org",
+        "contact_subSection_2_title": "Store",
+        "contact_subSection_2_item_1": "No 1123, Sky Tower Street, New York,",
+        "contact_subSection_2_item_2": "+844 123 456",
+        "contact_subSection_2_item_3": "store@demolink.org",
+
+        "copyright_text": "2017 Magento Demo Store. All Rights Reserved.",
+        "copyright_symbol": "©"
     }
 
 }

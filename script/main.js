@@ -6,7 +6,7 @@ var configs = {
     'bg',
     'en'
   ],
-  url: "http://localhost:6060/"
+  url: "http://localhost/"
 }
 
 
@@ -54,16 +54,19 @@ function checkLanguageValidity(lang) {
 }
 
 function changeUrlLanguage(lang) {
-  var currentUrl = window.location.href,
-  indexOfHashTag;
+  var currentUrl = window.location.href, newUrl;
 
-  indexOfHashTag = currentUrl.indexOf('#');
+  newUrl = currentUrl.replace(configs.lang, lang);
+
+  window.location.href = newUrl;
 }
 
 function changeLanguage(lang) {
   checkLanguageValidity(lang);
+  changeUrlLanguage(lang);
   $.getJSON('../lang/' + lang + '.json', function (json) {
     content = json;
+    configs.lang = lang;
     router.resolve();
   })
 }
