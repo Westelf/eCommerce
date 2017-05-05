@@ -1,19 +1,13 @@
 // Functions______________________________________________________________________________________
-function reloadHeaderAndFooterIfNotLoaded(ifNotPresentClause) {
-    if (ifNotPresentClause) { //If "ifNotPresentClause" is true then the method reloads header and footer sections only if they are not already loaded.
+function reloadHeaderAndFooterIfNotLoaded(present) {
+    if (present) { //If "ifNotPresentClause" is true then the method reloads header and footer sections only if they are not already loaded.
         if (!$('#header').html() || !$('#footer').html()) {
-            $.getJSON('../lang/'+ configs.lang +'.json',function (json) {
-                var content = json;
-                templateLoader.loadTemplate('header',document.getElementById('header'), content);
-                templateLoader.loadTemplate('footer', document.getElementById('footer'), content);
-            });
+            templateLoader.loadTemplate('header',document.getElementById('header'), content);
+            templateLoader.loadTemplate('footer', document.getElementById('footer'), content);
         }
     } else {
-        $.getJSON('../lang/'+ configs.lang +'.json',function (json) {
-                var content = json;
-                templateLoader.loadTemplate('header',document.getElementById('header'), content);
-                templateLoader.loadTemplate('footer', document.getElementById('footer'), content);
-        });
+        templateLoader.loadTemplate('header',document.getElementById('header'), content);
+        templateLoader.loadTemplate('footer', document.getElementById('footer'), content);
     }
 
 }
@@ -83,22 +77,22 @@ function reloadHeaderAndFooterIfNotLoaded(ifNotPresentClause) {
 
 var router = new Navigo(configs.url, false);
 
-router.on('/home', function () {
+router.on('home', function () {
     reloadHeaderAndFooterIfNotLoaded(false);
     templateLoader.loadTemplate('home', document.getElementById('body-container'));
     console.log('index');
 })
     .on('sectionTest', function () {
         templateLoader.loadTemplate('section', document.getElementById('body-container'));
-        reloadHeaderAndFooterIfNotLoaded(true);
+        reloadHeaderAndFooterIfNotLoaded(false);
         console.log('section');
     }).on('product', function () {
         templateLoader.loadTemplate('product', document.getElementById('body-container'));
-        reloadHeaderAndFooterIfNotLoaded(true);
+        reloadHeaderAndFooterIfNotLoaded(false);
         console.log('Product');
     }).on('checkout', function () {
         templateLoader.loadTemplate('checkout', document.getElementById('body-container'));
-        reloadHeaderAndFooterIfNotLoaded(true);
+        reloadHeaderAndFooterIfNotLoaded(false);
         console.log('Checkout');
     });
 

@@ -71,3 +71,8 @@ function changeLanguage(lang) {
   })
 }
 
+function init() {
+  changeInitialAddress();
+  changeLanguage(configs.lang);
+}
+
