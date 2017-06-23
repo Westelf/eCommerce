@@ -1,12 +1,13 @@
 var content;
 
 var configs = {
-  lang: "bg",
+  lang: "en",
   allowedLanguages: [
     'bg',
     'en'
   ],
-  url: "http://localhost/"
+  //url: "http://localhost/"
+  url: "https://pharmacy-westelf.c9users.io/"
 }
 
 
@@ -63,7 +64,7 @@ function changeUrlLanguage(lang) {
 
 function changeLanguage(lang) {
   checkLanguageValidity(lang);
-  changeUrlLanguage(lang);
+  //changeUrlLanguage(lang);
   $.getJSON('../lang/' + lang + '.json', function (json) {
     content = json;
     configs.lang = lang;
